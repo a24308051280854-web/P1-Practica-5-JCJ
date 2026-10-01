@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario 5J</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: white;
+        }
+
+        .horario {
+            width: 100%;
+            max-width: 1100px;
+            margin: auto;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        .horario th,
+        .horario td {
+            border: 2px solid #333;
+            text-align: center;
+            vertical-align: middle;
+            padding: 6px;
+        }
+
+        .titulo {
+            background: #f2f2f2;
+            color: #ff0000;
+            font-size: 28px;
+            font-weight: bold;
+            height: 40px;
+        }
+
+        .dias {
+            background: #f2f2f2;
+            color: #000000;
+            font-size: 20px;
+            font-weight: bold;
+            height: 45px;
+        }
+
+        .hora {
+            width: 90px;
+            background: #f5f5f5;
+            color: #438d91;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .materia {
+            font-size: 17px;
+            font-weight: normal;
+            line-height: 1.15;
+        }
+
+        .amarillo {
+            background: #ffff00;
+        }
+
+        .oliva {
+            background: #b8b936;
+        }
+
+        .naranja {
+            background: #ff8000;
+        }
+
+        .verde {
+            background: #00ff00;
+        }
+
+        .verde-oscuro {
+            background: #00a800;
+        }
+
+        .gris {
+            background: #bfbfbf;
+        }
+
+        .morado {
+            background: #963cff;
+            color: black;
+        }
+
+        .recreo {
+            background: #f2f2f2;
+            color: #0cff29;
+            font-size: 18px;
+            font-weight: bold;
+            height: 28px;
+        }
+
+        .vacio {
+            background: #fff;
+        }
+
+        /* Alturas de los bloques */
+        .h1 {
+            height: 65px;
+        }
+
+        .h2 {
+            height: 65px;
+        }
+
+        .h3 {
+            height: 70px;
+        }
+
+        .h4 {
+            height: 55px;
+        }
+
+        .h5 {
+            height: 70px;
+        }
+
+        .h6 {
+            height: 70px;
+        }
+
+        .h7 {
+            height: 65px;
+        }
+
+        .h8 {
+            height: 65px;
+        }
+    </style>
+</head>
+
+<body>
+
+<table class="horario">
+
+    <!-- TÍTULO -->
+    <tr>
+        <th colspan="6" class="titulo">5J</th>
+    </tr>
+
+    <!-- DÍAS -->
+    <tr>
+        <th class="dias hora">0854JCJ</th>
+        <th class="dias">Lunes</th>
+        <th class="dias">Martes</th>
+        <th class="dias">Miércoles</th>
+        <th class="dias">Jueves</th>
+        <th class="dias">Viernes</th>
+    </tr>
+
+    <!-- 7:00 - 8:00 -->
+    <tr>
+        <td class="hora h1">7:00<br>8:00</td>
+
+        <td class="vacio h1" rowspan="2"></td>
+
+        <td class="amarillo materia h1">
+            5° CH 2<br>
+            Juarez<br>
+            AULA 38
+        </td>
+
+        <td class="oliva materia h1">
+            5° Apli. Adm<br>
+            Estrada<br>
+            AULA 38
+        </td>
+
+        <td class="oliva materia h1">
+            5° Apli. Adm<br>
+            Estrada<br>
+            AULA 38
+        </td>
+
+        <td class="oliva materia h1">
+            5° Ingles 5<br>
+            Terrazas<br>
+            AULA 38
+        </td>
+    </tr>
+
+    <!-- 8:00 - 9:00 -->
+    <tr>
+        <td class="hora h2">8:00<br>9:00</td>
+
+        <td class="oliva materia h2">
+            5° Apli. Adm<br>
+            Estrada<br>
+            AULA 38
+        </td>
+
+        <td class="amarillo materia h2">
+            5° CH 2<br>
+            Juarez<br>
+            AULA 38
+        </td>
+
+        <td class="oliva materia h2">
+            5° Ingles 5<br>
+            Terrazas<br>
+            AULA 38
+        </td>
+
+        <td class="amarillo materia h2">
+            5° CH 2<br>
+            Juarez<br>
+            AULA 38
+        </td>
+    </tr>
+
+    <!-- 9:00 - 10:00 -->
+    <tr>
+        <td class="hora h3">9:00<br>10:00</td>
+
+        <td class="oliva materia h3">
+            5° Ingles 5<br>
+            Terrazas<br>
+            AULA 38
+        </td>
+
+        <td class="naranja materia h3" rowspan="2">
+            PROG M4S1<br>
+            Meza<br>
+            AULA 38
+        </td>
+
+        <td class="naranja materia h3">
+            PROG M4S1<br>
+            Meza<br>
+            AULA 38
+        </td>
+
+        <td class="naranja materia h3" rowspan="2">
+            PROG M4S1<br>
+            Meza<br>
+            AULA 38
+        </td>
+
+        <td class="naranja materia h3" rowspan="2">
+            PROG M4S1<br>
+            Meza<br>
+            AULA 38
+        </td>
+    </tr>
+
+    <!-- 10:00 - 10:50 -->
+    <tr>
+        <td class="hora h4">10:00<br>10:50</td>
+
+        <td class="verde materia h4">
+            5° CNEyT 5<br>
+            Reyes<br>
+            AULA 38
+        </td>
+
+        <td class="oliva materia h4">
+            5° Ingles 5<br>
+            Terrazas<br>
+            AULA 38
+        </td>
+    </tr>
+
+    <!-- RECREO -->
+    <tr>
+        <td class="hora recreo">10:50<br>11:10</td>
+        <td colspan="5" class="recreo">recreo</td>
+    </tr>
+
+    <!-- 11:10 - 12:00 -->
+    <tr>
+        <td class="hora h5">11:10<br>12:00</td>
+
+        <td class="gris materia h5">
+            PROG M4S2<br>
+            Gonzales A<br>
+            AULA 38
+        </td>
+
+        <td class="gris materia h5">
+            PROG M4S2<br>
+            Gonzales A<br>
+            AULA 38
+        </td>
+
+        <td class="verde materia h5" rowspan="2">
+            5° CNEyT 5<br>
+            Reyes<br>
+            AULA 38
+        </td>
+
+        <td class="gris materia h5" rowspan="2">
+            PROG M4S2<br>
+            Gonzales A<br>
+            AULA 38
+        </td>
+
+        <td class="verde materia h5">
+            5° CNEyT 5<br>
+            Reyes<br>
+            AULA 38
+        </td>
+    </tr>
+
+    <!-- 12:00 - 13:00 -->
+    <tr>
+        <td class="hora h6">12:00<br>13:00</td>
+
+        <td class="morado materia h6">
+            5° FS<br>
+            Meza<br>
+            AULA 38
+        </td>
+
+        <td class="oliva materia h6">
+            5° Ingles 5<br>
+            Terrazas<br>
+            AULA 38
+        </td>
+
+        <td class="gris materia h6">
+            PROG M4S2<br>
+            Gonzales A<br>
+            AULA 38
+        </td>
+
+        
+    </tr>
+
+    <!-- 13:00 - 14:00 -->
+    <tr>
+        <td class="hora h7">13:00<br>14:00</td>
+
+        <td class="verde-oscuro materia h7">
+            5° TSdM 2<br>
+            Macias<br>
+            AULA 38
+        </td>
+
+        <td class="verde-oscuro materia h7">
+            5° TSdM 2<br>
+            Macias<br>
+            AULA 38
+        </td>
+
+        <td class="verde-oscuro materia h7">
+            5° TSdM 2<br>
+            Macias<br>
+            AULA 38
+        </td>
+
+        <td class="verde-oscuro materia h7">
+            5° TSdM 2<br>
+            Macias<br>
+            AULA 38
+        </td>
+
+        <td class="verde-oscuro materia h7">
+            5° TSdM 2<br>
+            Macias<br>
+            AULA 38
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
